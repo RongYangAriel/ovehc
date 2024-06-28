@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Ninja Responsive Bootstrap themes | webthemez</title>
+<title>Ottawa Valley Exterior Home Cleaning</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
@@ -36,8 +36,8 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li> 
-                        <li><a href="about.html">About Us</a></li>
-						<li><a href="services.html">Services</a></li>
+                        <!-- <li><a href="about.html">About Us</a></li>
+						<li><a href="services.html">Services</a></li> -->
 						<li><a href="contact.html">Contact Us</a></li></a></li>
                     </ul>
                 </div>
@@ -59,7 +59,33 @@
 	<div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			Address 
+			<p>Please feel free to email us at <a href="mailto:ottawavalleyehc@gmail.com
+				">ottawavalleyehc@gmail.com
+			</a> for any inquiries or questions.</p>
+			<!-- <form action="contact-form.php" method="POST" enctype="multipart/form-data"></form>
+				<div class="form-group">
+					<div class="form-group">
+						<label for="email">Your Email Address:</label>
+						<input type="email" class="form-control" id="email" name="email" required>
+					</div>
+					<div class="form-group">
+						<label for="name">Your Name:</label>
+						<input type="text" class="form-control" id="name" name="name" required>
+					</div>
+					<div class="form-group">
+						<label for="message">Message:</label>
+						<textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form> -->
+			<p id="response" style="display: none;">Thank you for contacting us. Your email has been sent.</p>
+			<script>
+				document.querySelector('form').addEventListener('submit', function(event) {
+					event.preventDefault();
+					document.getElementById('response').style.display = 'block';
+				});
+			</script>
 		</div>
 	</div>
 	</div>
@@ -73,7 +99,7 @@
 						<h5 class="widgetheading">Contact Us</h5>
 						<address>
 						<strong>Ottawa Valley Exterior Home Cleaning </strong><br>
-						Address: <br>
+						 <br>
 						</address>
 						<!-- <p>
 							<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
